@@ -1,0 +1,296 @@
+.CreatePost{
+    width: auto;
+    height: auto;
+}
+
+.form{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 1000px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 5px 1px #c8b9cf
+}
+
+.wrapper{
+    display: block;
+    max-width: 500px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.createPost label{
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: crimson;
+}
+
+.uploadImage{
+    width: 500px;
+}
+
+.frameImage{
+    width: 450px;
+    height: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.frameImage img{
+    position: absolute;
+    position: relative;
+    width: 450px;
+    height: auto;
+    margin-top: -400px;
+    border-radius: 20px;
+
+}
+
+.functionPost{
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+    color: none;
+    border: 2px dashed #c2cdda;
+}
+
+.cloudUpLoad{
+    position: relative;
+    margin-bottom: 1.5em;
+    margin-left: 170px;
+    margin-top: 140px;
+}
+
+.cloudUpLoad input{
+    position: relative;
+    text-align: right;
+    opacity: 0;
+    cursor: pointer;
+    height: 100px;
+    max-width: 100px;
+}
+
+.cloudUpLoad button{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconButtonCloudUpload{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(59, 3, 65);
+}
+
+.imageText{
+    font-size: 20px;
+    font-weight: 500;
+    color: brown;
+    margin-left: 80px;
+}
+
+.file-name{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+    padding: 1px 0;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    background: rgb(69, 36, 87);
+}
+
+.deleteImg{
+    margin-left: 44%;
+    color: rgb(69, 36, 87);
+}
+
+
+.uploadImage #custom-btn{
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    width: 60%;
+    height: 50px;
+    display: block;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(135deg, #3a8ffe 0%, #9658fe 100%);
+}
+
+
+.imageContent{
+    display: block;
+    margin-left: 40px;
+    color: aliceblue;
+    margin-top: 100px;
+}
+
+.addTitle{
+    position: absolute;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    text-align: center;
+}
+
+.addTitle input{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.line{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: rgb(59, 3, 65);
+    bottom: 0;
+}
+
+.addTitle label{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 40px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: rgb(59, 3, 65);
+}
+.addTitle input:valid ~ label{
+    display: none;
+}
+
+.imageContent h2{
+    font-size: 30px;
+    margin-top: 100px;
+    color:crimson;
+    font-weight: bold;
+    word-wrap: break-word;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.contentDescription{
+    position: absolute;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    text-align: center;
+}
+
+.contentDescription input{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 30;
+    word-wrap: break-word;
+}
+
+.lineD{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: rgb(59, 3, 65);
+    bottom: 0;
+}
+
+.contentDescription label{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 20px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: rgb(59, 3, 65);
+}
+.contentDescription input:valid ~ label{
+    display: none;
+}
+
+/* .option{
+    margin-bottom: 10%;
+    margin-top: 95px;
+    height: 30px;
+
+}
+
+.catergory{
+    width: 100px;
+    margin-top: 10px; 
+    margin-right: 10px;
+    background-color: #fff;
+    color: rgb(59, 3, 65);
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.catergory{
+    width: calc(100% / 6 + 40px);
+}
+
+.catergory:hover {
+    background-color: rgb(59, 3, 65); 
+    color: white;
+    border-radius: 20px;
+} */
+
+.option{
+    margin-bottom: 10%;
+    margin-top: 95px;
+    height: 30px;
+
+}
+
+.option button{
+    width: 100px;
+    margin-top: 10px; 
+    margin-right: 10px;
+    background-color: #fff;
+    color: rgb(59, 3, 65);
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.option button{
+    width: calc(100% / 6 + 40px);
+}
+
+.option button:hover {
+    background-color: rgb(59, 3, 65); 
+    color: white;
+    border-radius: 20px;
+}
+
+.blackcolor{
+    background-color: rgb(59, 3, 65);
+    color: #fff;
+}

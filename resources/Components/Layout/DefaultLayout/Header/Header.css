@@ -1,0 +1,253 @@
+.wrapperHeader{
+    height: 80px;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+    background-color:white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.innerHeader{
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color:white;
+  height: 100%;
+  flex: 1 1 auto;
+  align-items: center;
+  display: flex;
+}
+.innerHeaderContainer{
+  height: 56px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.buttonLogoHeader{
+  align-items: center;
+  display: flex;
+
+}
+.logoHeader{
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+ 
+}
+.logotl{
+  height: 40px;
+  width: 40px;
+  margin: auto;
+}
+.buttonLogoHeader{
+  border:none;
+  border-radius: 50%;
+  display: flex;
+  cursor: pointer;
+
+}
+.buttonHeader {
+    
+  background-color: white; 
+  border: none;
+  color: black;
+  padding: 10px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.ContainerButtonHeader{
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.buttonHome {
+background-color: white; 
+color: black; 
+border-radius: 40px;
+margin-right: 5px;
+}
+.buttonHome:hover {
+background-color:black; 
+color: white;
+}
+.buttonCreate{
+background-color: white; 
+color: black; 
+border-radius: 40px;
+}
+
+
+
+.buttonNotification{
+  border: none;
+  border-radius: 50%;
+  background-color: #767676;
+}
+.searchInnerHeader,
+.searchResult{
+ width: 780px;
+}
+
+.searchInnerHeader{
+  height: 42px; 
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #e9e9e9;
+  border-radius: 92px;
+  display: flex;
+  position: relative;
+
+  
+}
+
+.searchInnerHeader input{
+  margin-left: 5px;
+  color: rgb(133, 133, 133);;
+  font-size:16px;
+  border:none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 40px;
+}
+.searchIconbox{
+  width: 48px;
+  height: 100%;
+  font-size: 18px;
+  display: flex;
+  padding-left: 15px;
+}
+
+.searchResult{
+  padding: 8px;
+  overflow-y: scroll;
+  max-height: 300px;
+}
+::-webkit-scrollbar{
+  width: 8px;
+  
+}
+::-webkit-scrollbar-thumb{
+  background-color: #767676;
+  height: 30px;
+}
+.iconserch{
+margin: auto;
+color: #767676;
+}
+
+
+.searchTitle{
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(22, 24, 35, 0.5);
+  padding: 9px 16px;
+}
+
+
+
+
+.searchBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #feffff;
+    border: 2px solid #757677;
+    padding: 8px 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px tgba(0,0,0,0.2);
+  }
+  .searchBox input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #313233;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .search{
+    background: #fefeff;
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15 );
+  }
+  
+  .search:hover , .search.active{
+    background: #2e2f30;
+  }
+  .search img{
+    width: 25px;
+    color-scheme: #000000;
+  }
+  .search:hover .MuiSvgIcon-root , 
+  .search.active .MuiSvgIcon-root{
+    color: #FeFFFF;
+  }
+  .actionsHeader{
+    display: flex;
+    justify-content: space-between;
+  }
+.clearBtn{
+  outline: none;
+  border: none;
+  position: absolute;
+  right: 10px;
+  top:25%;
+  transform: translate(-25%);
+  background-color: transparent;
+
+}
+.loadingBtn{
+  outline: none;
+  border: none;
+  position: absolute;
+  right: 10px;
+  top:25%;
+  transform: translate(-25%);
+  background-color: transparent;
+
+}
+
+  .buttonRightHeader{
+    height: 48px;
+    width: 48px;
+    background-color: white;
+    color: #767676;
+    font-size: 25px;
+    justify-content: center;
+    border:none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+
+  }
+  .buttonRightHeader:hover{
+    background-color:#e9e9e9 ;
+  }
+  .avatarButtonHeader{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+  }
+.buttonList{
+  color:#767676 !important;
+  background-color: #fefeff !important;
+  border-color: #fefeff !important;
+  font-size: 1.5rem !important;
+}
